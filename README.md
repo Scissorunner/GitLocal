@@ -1,2 +1,2 @@
 # Local Folder Git
-Use this folder for work in process
+Use this folder to hold programs that are 'work in process'
