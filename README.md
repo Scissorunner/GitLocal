@@ -12,4 +12,4 @@ git checkout main // moves to main branch
 git checkout new-branch-name // moves to new branch that was created
 git merge main // will merge main branch into new_branch when current branch is new_branch
 git merge new_branch // will merge new_branch into main branch when current branch is main
-git push -u origin main // will push files found in branch main to origin main on GitHub
+git push -u origin main // will push files found in branch main to origin main on GitHub. -u means 'save settings', next time all that is needed is git push and it will remember to push to 'origin main'.
