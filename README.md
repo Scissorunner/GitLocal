@@ -10,4 +10,6 @@ git commit -m "message" // commits added files
 git checkout -b new-branch-name // creates a new branch and copies data from main branch to new branch  
 git checkout main // moves to main branch
 git checkout new-branch-name // moves to new branch that was created
-git merge master // will merge master branch into new branch when current branch is new branch
+git merge main // will merge main branch into new_branch when current branch is new_branch
+git merge new_branch // will merge new_branch into main branch when current branch is main
+git push -u origin main // will push files found in branch main to origin main on GitHub
